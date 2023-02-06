@@ -1,4 +1,5 @@
 import "./App.css";
+import Form from "./components/form";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          Edit the <code>./src</code> folder to add components.
+          <Form />
         </div>
       </div>
     </div>
